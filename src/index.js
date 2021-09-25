@@ -15,6 +15,6 @@ app.get('', (req, res) => {
   res.render('index');
 });
 
-app.listen(APP_PORT, () => {
-  console.log(`Server started on port ${APP_PORT}.`);
+const server = app.listen(APP_PORT, () => {
+  console.log(`Server started on port ${server.address().port}.`);
 });
