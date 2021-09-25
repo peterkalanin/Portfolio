@@ -1,0 +1,101 @@
+<div id='contact' class='bg-blue-100 overflow-hidden'>
+  <main
+    class='mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28'
+  >
+    <div class='sm:text-center lg:text-left'>
+      <h1
+        class='text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl'
+      >
+        <span class='block xl:block'>Kontakt</span>
+      </h1>
+
+      <div class='my-8 sm:my-8 xl:my-16'>
+        <div class='md:grid md:grid-cols-3 md:gap-12'>
+
+          <div class='mt-5 md:mt-0 md:col-span-2'>
+            <form action='index.js' method='POST'>
+              <div class='shadow sm:rounded-md sm:overflow-hidden'>
+                <div class='px-4 py-5 bg-white space-y-6 sm:p-6'>
+                  <div class='grid grid-cols-6 gap-6'>
+
+                    <div class='col-span-6 sm:col-span-4'>
+                      <label
+                        for='email-address'
+                        class='block text-base font-medium text-gray-700'
+                      >E-mail</label>
+                      <input
+                        class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                        id='email'
+                        type='email'
+                        required
+                      />
+                    </div>
+
+                    <div class='col-span-6 sm:col-span-3'>
+                      <label
+                        for='first-name'
+                        class='block text-base font-medium text-gray-700'
+                      >Meno</label>
+                      <input
+                        class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                        id='firstName'
+                        type='text'
+                        required
+                      />
+                    </div>
+
+                    <div class='col-span-6 sm:col-span-3'>
+                      <label
+                        for='last-name'
+                        class='block text-base font-medium text-gray-700'
+                      >Priezvisko</label>
+                      <input
+                        class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+                        id='lastName'
+                        type='text'
+                        required
+                      />
+                    </div>
+
+                    <div class='col-span-6 sm:col-span-6'>
+                      <label
+                        for='last-name'
+                        class='block text-base font-medium text-gray-700'
+                      >Správa</label>
+                      <textarea
+                        class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-32'
+                        id='message'
+                        required
+                      ></textarea>
+                    </div>
+
+                  </div>
+                </div>
+                <div class='px-4 py-3 bg-gray-50 text-right sm:px-6'>
+                  <button
+                    type='submit'
+                    class='inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                  >
+                    Kontaktovať
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class='md:col-span-1 flex'>
+            <div class='px-4 sm:px-0'>
+              <div>
+                <p class='mt-1 text-2xl text-gray-600'>
+                  +421 902 240 592
+                </p>
+                <p class='mt-1 text-2xl text-gray-600'>
+                  kalanin.peto@gmail.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
