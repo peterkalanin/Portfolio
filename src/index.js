@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const hbs = require('hbs');
+const email = require('./helpers/email');
 
 const app = express();
 const APP_PORT = 3000;
@@ -34,6 +35,7 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
   console.log(req.body);
+  email.sendEmail(req.body);
   res.render('index');
 });
 
