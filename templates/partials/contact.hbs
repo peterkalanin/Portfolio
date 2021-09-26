@@ -13,7 +13,7 @@
         <div class='md:grid md:grid-cols-3 md:gap-12'>
 
           <div class='mt-5 md:mt-0 md:col-span-2'>
-            <form action='index.js' method='POST'>
+            <form action='/#contact' method='POST'>
               <div class='shadow sm:rounded-md sm:overflow-hidden'>
                 <div class='px-4 py-5 bg-white space-y-6 sm:p-6'>
                   <div class='grid grid-cols-6 gap-6'>
@@ -26,6 +26,7 @@
                       <input
                         class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                         id='email'
+                        name='email'
                         type='email'
                         required
                       />
@@ -39,6 +40,7 @@
                       <input
                         class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                         id='firstName'
+                        name='firstName'
                         type='text'
                         required
                       />
@@ -52,6 +54,7 @@
                       <input
                         class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
                         id='lastName'
+                        name='lastName'
                         type='text'
                         required
                       />
@@ -64,12 +67,16 @@
                       >Správa</label>
                       <textarea
                         class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-32'
+                        style='min-height: 5rem;'
                         id='message'
+                        name='message'
                         required
                       ></textarea>
                     </div>
-
                   </div>
+                  <p class='text-sm text-gray-500'>
+                    Potvrdením sa odošle automatický email adresátovi stránky.
+                  </p>
                 </div>
                 <div class='px-4 py-3 bg-gray-50 text-right sm:px-6'>
                   <button

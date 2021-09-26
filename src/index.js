@@ -15,13 +15,25 @@ hbs.registerPartials(partialsPath);
 
 app.use(express.static(publicDirectoryPath));
 
+app.use(express.json()); // to support JSON-encoded bodies
+app.use(
+  express.urlencoded({
+    extended: true,
+  })
+);
+
 const appLogger = function (req, res, next) {
   console.log(`${new Date().toISOString()} -> ${req.method} ${req.url}`);
   next();
 };
 app.use(appLogger);
 
-app.get('', (req, res) => {
+app.get('/', (req, res) => {
+  res.render('index');
+});
+
+app.post('/', (req, res) => {
+  console.log(req.body);
   res.render('index');
 });
 
