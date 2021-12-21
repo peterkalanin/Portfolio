@@ -1,0 +1,16 @@
+.dot-divider {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+.dot-divider::after {
+  content: '\00B7';
+}
+
+body {
+  height: 100%;
+  background-image: url('../svg/bg.svg');
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: cover;
+}

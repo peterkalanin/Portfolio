@@ -1,0 +1,31 @@
+<div class='shadow hover:shadow-lg sm:rounded-md sm:overflow-hidden'>
+  <div class='px-4 py-5 bg-white sm:p-6'>
+    <h4 class='block text-xl font-bold text-gray-700'>{{position}}</h4>
+    <h5 class='block text-base font-normal text-gray-600'>{{employer}}</h5>
+    <div class='block text-base text-gray-400'>
+      <span>
+        {{started}}
+        -
+        {{#if isCurrent}}
+          Súčastné
+        {{else}}
+          {{ended}}
+        {{/if}}
+      </span>
+      <span class='dot-divider'></span>
+      <span>
+        {{location}}
+      </span>
+    </div>
+    <div>
+      <ul class='list-disc list-inside ml-8 text-sm text-gray-700'>
+        {{#each body as |body label|}}
+          <li>
+            <strong>{{this.label}}:</strong>
+            {{this.desc}}
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>
