@@ -1,44 +1,62 @@
 <nav class='bg-gray-900 z-50 sticky top-0 md:border-b border-gray-700'>
   <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-    <div class='flex items-center justify-between h-16 md:divide-x-2 md:divide-gray-700'>
+    <div class='flex items-center justify-between h-16'>
       <div class='flex items-center'>
         <div class='hidden md:block'>
-          <div class='ml-10 flex space-x-4'>
+          <div class='flex space-x-4'>
             <a
               href='#about'
               class='text-gray-300 rounded-md text-sm font-medium'
-            >{{>subpartials/logo}}</a>
-            <a
-              href='#about'
-              class='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
-            >O mne</a>
+            >
+            {{>subpartials/logo}}
+            </a>
             
-            <a
-              href='#skills'
-              class='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
-            >Zručnosti</a>
-
-            <a
-              href='#portfolio'
-              class='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
-            >Portfólio</a>
-
-            <a
-              href='#contact'
-              class='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
-            >Kontakt</a>
           </div>
         </div>
       </div>
       <div class='flex items-right'>
         <div class='hidden md:block'>
-          <div class='ml-10 flex items-baseline space-x-4'>
+          <div class="flex items-baseline md:divide-x-2 md:divide-gray-700 space-x-4">
+            <div class='ml-10 flex space-x-4'>
+              <a
+                href='#about'
+                class='text-gray-300 hover:text-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+              >
+              O mne
+              </a>
+              
+              <a
+                href='#skills'
+                class='text-gray-300 hover:text-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+              >
+              Zručnosti
+              </a>
+
+              <a
+                href='#portfolio'
+                class='text-gray-300 hover:text-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+              >
+              Portfólio
+              </a>
+
+              <a
+                href='#contact'
+                class='text-gray-300 hover:text-blue-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
+              >
+              Kontakt
+              </a> 
+              
+            </div>
+            <div class="pl-6 flex space-x-4">
             <a
               href='/docs/kalanin_cv.pdf'
               target="blank"
               class='text-blue-300 hover:bg-gray-800 px-3 py-2 border border-blue-300 rounded-md text-sm font-medium'
             >Životopis</a>
           </div>
+          </div>
+          
+          
         </div>
       </div>
       <div class='-mr-2 flex md:hidden'>
