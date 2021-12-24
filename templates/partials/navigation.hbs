@@ -2,10 +2,10 @@
   <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
     <div class='flex items-center justify-between h-16'>
       <div class='flex items-center'>
-        <div class='hidden md:block'>
+        <div class=''>
           <div class='flex space-x-4'>
             <a
-              href='#about'
+              href=''
               class='text-gray-300 rounded-md text-sm font-medium'
             >
             {{>subpartials/logo}}
@@ -115,10 +115,11 @@
   </div>
 
   <!-- Mobile menu, show/hide based on menu state. -->
-  <div class='hidden md:hidden bg-gray-800 ml-24' id='mobile-menu'>
+  <div class='hidden md:hidden right-0 w-2/3 bg-gray-800 ml-24' id='mobile-menu'>
     <div class='px-2 pt-6 pb-6 space-y-6 sm:px-3'>
       <a
         href='#about'
+        onclick="closeNavbar()"
         class='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium text-center'
       >O mne</a>
 
