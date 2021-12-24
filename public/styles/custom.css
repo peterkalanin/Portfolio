@@ -31,3 +31,15 @@
   padding-bottom: 0.3em;
   margin-left: 0.5em;
 }
+
+li::before {
+  display: inline-block;
+  position: absolute;
+  content: ' ';
+  background-image: url('/img/li-symbol.svg');
+  background-size: 14px 14px;
+  height: 14px;
+  width: 14px;
+  left: 0px;
+  top: 5px;
+}
