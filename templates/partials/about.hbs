@@ -7,8 +7,8 @@
   >
     O mne
   </h1>
-  <div class='pt-8 pb-96 md:grid md:gap-16 md:grid-cols-5 xl:gap-32'>
-    <div class='md:col-span-3 space-y-8'>
+  <div class='pt-8 pb-8 md:grid md:gap-16 md:grid-cols-5 xl:gap-32 md:ml-8'>
+    <div class='md:col-span-3 space-y-4'>
       <p>
         Volám sa Peter Kalanin a zaujímam sa o vývoj webových aplikácií a
         informačných systémov. Som absolvent FEI STU v Bratislave v odbore
@@ -26,14 +26,52 @@
         >nového informačného systému EvuPP</a>
         .
       </p>
+      <p>
+        Mám skúsenosti s nasledujúcimi techológiami:
+      </p>
+      <div class='flex gap-12 md:gap-16 lg:gap-24'>
+        <ul class='text-base space-y-2'>
+          <li class='relative pl-8'>
+            JavaScript (ES6+)
+          </li>
+          <li class='relative pl-8'>
+            TypeScript
+          </li>
+          <li class='relative pl-8'>
+            Angular (2+)
+          </li>
+          <li class='relative pl-8'>
+            Node.js
+          </li>
+
+        </ul>
+        <ul class='text-base space-y-2'>
+          <li class='relative pl-8'>
+            HTML5
+          </li>
+          <li class='relative pl-8'>
+            CSS3, Sass
+          </li>
+          <li class='relative pl-8'>
+            Bootstrap
+          </li>
+          <li class='relative pl-8'>
+            Tailwind
+          </li>
+        </ul>
+      </div>
+      <ul class='text-base'>
+        <li class='relative pl-8'>Taktiež mám skúsenosti s C# (Asp.net), Java,
+          PHP, Python</li>
+      </ul>
     </div>
-    <div class='relative'>
-      <div class='md:col-span-2 mt-12 md:mt-0'>
+    <div class='relative group'>
+      <div class='md:col-span-2 mt-12 md:mt-0 z-10'>
         <div class='w-64 h-64 rounded-full mx-auto md:mx-0 overflow-hidden'>
           <img class='' src='img/moja foto.jpg' alt='' />
         </div>
       </div>
-      <div class='absolute top-0 left-0'>
+      {{! <div class='absolute top-0 left-0 w-64 h-64 group-hover:top-16'>
         <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>
           <defs>
             <radialGradient
@@ -44,17 +82,15 @@
               fx='80%'
               fy='80%'
             >
-              <stop offset='0%' style='stop-color:#FF00FF;'></stop>
-              <stop offset='100%' style='stop-color:#FFBD2E;'></stop>
+              <stop offset='0%' style='stop-color:#93c5fd;'></stop>
+              <stop offset='100%' style='stop-color:#6299d8;'></stop>
             </radialGradient>
           </defs>
 
           <!-- top left circle -->
-          <circle cx='40' cy='60' r='30' fill='url(#gradient1)'></circle>
+          <circle cx='100' cy='100' r='100' fill='url(#gradient1)'></circle>
         </svg>
-      </div>
+      </div> }}
     </div>
   </div>
-
-  <div class='pb-96'></div>
 </section>
