@@ -14,3 +14,20 @@
   -webkit-background-size: 100% 100%;
   background-size: cover;
 } */
+
+.heading::before {
+  content: '#';
+  color: rgb(147, 197, 253);
+  font-size: 0.75em;
+  display: inline;
+  margin-right: 0.5em;
+}
+
+.heading::after {
+  content: '';
+  width: 300px;
+  border-top: 1px solid rgb(55, 65, 81);
+  display: inline-block;
+  padding-bottom: 0.3em;
+  margin-left: 0.5em;
+}

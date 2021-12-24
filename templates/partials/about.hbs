@@ -1,79 +1,60 @@
-<div id='about' class='relative bg-white overflow-hidden'>
-  <div class='max-w-7xl mx-auto'>
-    <div
-      class='relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32'
-    >
-      <svg
-        class='hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2'
-        fill='currentColor'
-        viewBox='0 0 100 100'
-        preserveAspectRatio='none'
-        aria-hidden='true'
-      >
-        <polygon points='50,0 100,0 50,100 0,100'></polygon>
-      </svg>
-
-      <div>
-        <div class='relative pt-6 px-4 sm:px-6 lg:px-8'>
-          <nav
-            class='relative flex items-center justify-between sm:h-10 lg:justify-start'
-            aria-label='Global'
-          >
-          </nav>
-        </div>
-        <div
-          class='absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden'
-        >
-          <div
-            class='rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden'
-          >
-          </div>
+<section
+  id='about'
+  class='mx-auto max-w-7xl mx-12 px-4 mt-96 lg:mt-64 lg:px-16 xl:mt-64 pt-8 md:pt-32'
+>
+  <h1
+    class='text-3xl tracking-tight font-extrabold text-gray-100 sm:text-3xl md:text-3xl heading'
+  >
+    O mne
+  </h1>
+  <div class='pt-8 pb-96 md:grid md:gap-16 md:grid-cols-5 xl:gap-32'>
+    <div class='md:col-span-3 space-y-8'>
+      <p>
+        Volám sa Peter Kalanin a zaujímam sa o vývoj webových aplikácií a
+        informačných systémov. Som absolvent FEI STU v Bratislave v odbore
+        aplikovaná informatika s niekoľkoročnou pracovnou skúsenosťou vo vývoji
+        softvéru a webových aplikácií.
+      </p>
+      <p>
+        Môj záujem o vývoj webových aplikácií začal už v mladosti tvorbou
+        jednoduchých webových stránok. Profesiónalne som sa tomu začal venovať
+        až v roku 2016 keď som stal pri zrode
+        <a
+          href='https://www.minedu.sk/sithova-urobili-sme-prvy-krok-reformy-poradenskeho-systemu-spustame-novy-evidencny-system-evupp/'
+          class='text-blue-300 hover:underline'
+          target='_blank'
+        >nového informačného systému EvuPP</a>
+        .
+      </p>
+    </div>
+    <div class='relative'>
+      <div class='md:col-span-2 mt-12 md:mt-0'>
+        <div class='w-64 h-64 rounded-full mx-auto md:mx-0 overflow-hidden'>
+          <img class='' src='img/moja foto.jpg' alt='' />
         </div>
       </div>
+      <div class='absolute top-0 left-0'>
+        <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>
+          <defs>
+            <radialGradient
+              id='gradient1'
+              cx='50%'
+              cy='50%'
+              r='50%'
+              fx='80%'
+              fy='80%'
+            >
+              <stop offset='0%' style='stop-color:#FF00FF;'></stop>
+              <stop offset='100%' style='stop-color:#FFBD2E;'></stop>
+            </radialGradient>
+          </defs>
 
-      <main
-        class='mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28'
-      >
-        <div class='sm:text-center lg:text-left'>
-          <h1
-            class='text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl'
-          >
-            {{! <span class='block xl:inline text-3xl sm:text-3xl font-normal'>
-              Volám sa
-            </span> }}
-            <span class='block xl:block'>Peter Kalanin</span>
-            <span
-              class='block text-blue-600 xl:inline text-xl md:text-6xl lg:text-4xl'
-            >web developer</span>
-          </h1>
-          <p
-            class='mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'
-          >
-            Som absolvent FEI STU v Bratislave v odbore aplikovaná informatika s
-            5-ročnou pracovnou skúsenosťou vo vývoji softvéru a webových
-            aplikácií. Som tímový, flexibilný, cieľavedomý vývojár, ktorý vie
-            doručiť kreatívne a vizuálne riešenia zákazníkom.
-          </p>
-          <div class='mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start'>
-            <div class='rounded-md shadow'>
-              <a
-                href='/docs/kalanin_cv.pdf'
-                target='blank'
-                class='w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10'
-              >
-                Stiahnúť životopis
-              </a>
-            </div>
-          </div>
-        </div>
-      </main>
+          <!-- top left circle -->
+          <circle cx='40' cy='60' r='30' fill='url(#gradient1)'></circle>
+        </svg>
+      </div>
     </div>
   </div>
-  <div class='lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2'>
-    <img
-      class='h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full'
-      src='/img/profile_photo.jpg'
-      alt=''
-    />
-  </div>
-</div>
+
+  <div class='pb-96'></div>
+</section>
