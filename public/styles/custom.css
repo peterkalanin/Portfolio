@@ -47,7 +47,7 @@ li::before {
 .image-group #circle-1,
 .image-group #circle-2 {
   z-index: -1;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s cubic-bezier(0.89, -0.37, 0.32, 1.56);
 }
 
 .image-group:hover #circle-1 {
@@ -63,7 +63,7 @@ li::before {
 .image-group #circle-3 {
   z-index: 1;
   opacity: 0.2;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .image-group:hover #circle-3 {
