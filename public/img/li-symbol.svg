@@ -55,9 +55,11 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#147197;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#93c5fd;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 5.2117559,3.6749559 C 1.7563642,5.7347991 2.1585932,13.85398 2.5390603,18.174328 2.9988765,24.954505 21.470652,18.018421 21.648831,14.03165 20.829658,9.2450245 10.084893,1.4424403 5.2117559,3.6749559 Z"
        id="path1414"
-       sodipodi:nodetypes="cccc" />
+       sodipodi:nodetypes="cccc"
+       inkscape:export-xdpi="4"
+       inkscape:export-ydpi="4" />
   </g>
 </svg>
