@@ -65,12 +65,34 @@
           PHP, Python</li>
       </ul>
     </div>
-    <div class='relative group'>
-      <div class='md:col-span-2 mt-12 md:mt-0 z-10'>
-        <div class='w-64 h-64 rounded-full mx-auto md:mx-0 overflow-hidden'>
-          <img class='' src='img/moja foto.jpg' alt='' />
+
+    <div class='md:col-span-2 mt-12 lg:mt-16 md:mt-0 z-10 image-group'>
+      <div class='relative'>
+        <div
+          id='circle-1'
+          class='absolute w-64 h-64 lg:w-80 lg:h-80 bottom-12 left-20 rounded-full border-4 border-blue-500'
+        ></div>
+        <div
+          id='circle-2'
+          class='absolute w-64 h-64 lg:w-80 lg:h-80 top-16 left-12 rounded-full bg-blue-900 border-8 border-gray-900'
+        ></div>
+        <div class='relative mx-auto md:mx-0'>
+          <div
+            id='circle-3'
+            class='absolute w-64 h-64 lg:w-80 lg:h-80 top-0 left-0 border-8 border-gray-900 rounded-full bg-blue-600'
+          >
+
+          </div>
+          <div
+            id='image'
+            class='w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-8 border-gray-900'
+          >
+            <img class='' src='img/moja foto.jpg' alt='' />
+          </div>
         </div>
+
       </div>
+
       {{! <div class='absolute top-0 left-0 w-64 h-64 group-hover:top-16'>
         <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'>
           <defs>

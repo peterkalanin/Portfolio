@@ -43,3 +43,49 @@ li::before {
   left: 0px;
   top: 5px;
 }
+
+.image-group #circle-1,
+.image-group #circle-2 {
+  z-index: -1;
+  transition: all 0.2s ease-in-out;
+}
+
+.image-group:hover #circle-1 {
+  left: 2rem;
+  bottom: 1.5rem;
+}
+
+.image-group:hover #circle-2 {
+  left: 2.5rem;
+  top: 1.5rem;
+}
+
+.image-group #circle-3 {
+  z-index: 1;
+  opacity: 0.2;
+  transition: all 0.2s ease-in-out;
+}
+
+.image-group:hover #circle-3 {
+  opacity: 0;
+}
+
+#image {
+  filter: grayscale(80%);
+}
+
+.image-group:hover #image {
+  filter: grayscale(0);
+}
+
+/* .image-group #image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 16rem;
+  height: 16rem;
+  background-color: rgb(147, 197, 253, 0.2);
+  border-radius: ;
+} */
