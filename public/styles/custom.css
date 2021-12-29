@@ -78,6 +78,11 @@ li::before {
   filter: grayscale(0);
 }
 
+svg {
+  width: 2rem;
+  height: 2rem;
+}
+
 /* .image-group #image::after {
   content: '';
   position: absolute;
