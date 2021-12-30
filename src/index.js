@@ -64,7 +64,6 @@ app.use(appLogger);
 app.get('/', (req, res) => {
   const lang = req.query.lang || 'sk';
   i18n.locale = lang;
-  console.log(lang);
   res.render('index', { jobs: JOBS, lang: lang });
 });
 
