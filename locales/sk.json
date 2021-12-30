@@ -3,5 +3,7 @@
   "nav_Experience": "Skúsenosti",
   "nav_Portfolio": "Moja práca",
   "nav_Contact": "Kontakt",
-  "nav_Resume": "Životopis"
+  "nav_Resume": "Životopis",
+  "hero_MyBio": "Som softvérový inžinier a špecializujem sa na vývoj webových častí informačných systémov. Mám za sebou viac ako päťročnú skúsenosť vo vývoji systému používaneho denne stovkami používateľov.",
+  "hero_CheckOutMyResume": "Pozrite si môj životopis"
 }

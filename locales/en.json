@@ -3,5 +3,7 @@
   "nav_Experience": "Experience",
   "nav_Portfolio": "Work",
   "nav_Contact": "Contact",
-  "nav_Resume": "Resume"
+  "nav_Resume": "Resume",
+  "hero_MyBio": "I'm software engineer and I specialize in development of web components and information systems. I have more than five years of experience in developing a system used by hundreds of daily users.",
+  "hero_CheckOutMyResume": "Check out my resume"
 }
