@@ -2,6 +2,8 @@ const express = require('express');
 const path = require('path');
 const hbs = require('hbs');
 // const email = require('./helpers/email');
+const i18n = require('i18n');
+const locale = require('./helpers/locale');
 
 const app = express();
 const APP_PORT = 3000;
@@ -28,6 +30,17 @@ const JOBS = [
   },
 ];
 
+i18n.configure({
+  locales: ['sk', 'en'],
+  cookie: 'locale',
+  directory: path.join(__dirname, '../locales'),
+  queryParameter: 'lang',
+});
+
+hbs.registerHelper('i18n', function (str) {
+  return i18n != undefined ? i18n.__n(str) : str;
+});
+
 app.set('view engine', 'hbs');
 app.set('views', viewsPath);
 hbs.registerPartials(partialsPath);
@@ -40,6 +53,7 @@ app.use(
     extended: true,
   })
 );
+app.use(i18n.init);
 
 const appLogger = function (req, res, next) {
   console.log(`${new Date().toISOString()} -> ${req.method} ${req.url}`);
@@ -48,13 +62,15 @@ const appLogger = function (req, res, next) {
 app.use(appLogger);
 
 app.get('/', (req, res) => {
-  res.render('index', { jobs: JOBS });
+  const lang = req.query.lang || 'sk';
+  i18n.locale = lang;
+  console.log(lang);
+  res.render('index', { jobs: JOBS, lang: lang });
 });
 
 app.post('/', (req, res) => {
-  console.log(req.body);
   // email.sendEmail(req.body);
-  res.render('index', { jobs: JOBS });
+  res.render('index', { jobs: JOBS, i18n });
 });
 
 const server = app.listen(APP_PORT, () => {
