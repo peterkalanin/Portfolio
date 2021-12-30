@@ -70,13 +70,13 @@ li::before {
   opacity: 0;
 }
 
-#image {
+/* #image {
   filter: grayscale(80%);
 }
 
 .image-group:hover #image {
   filter: grayscale(0);
-}
+} */
 
 svg {
   width: 2rem;
