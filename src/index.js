@@ -5,7 +5,7 @@ const hbs = require('hbs');
 const i18n = require('i18n');
 const locale = require('./helpers/locale');
 
-const app = express.Router();
+const app = express();
 const APP_PORT = 3000;
 
 const publicDirectoryPath = path.join(__dirname, '../public');
