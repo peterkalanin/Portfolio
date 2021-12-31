@@ -1,31 +1,3 @@
-{{!-- <div id="portfolio" class='bg-white overflow-hidden'>
-  <main
-    class='mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28'
-  >
-    <div class='sm:text-center lg:text-left'>
-      <h1
-        class='text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl'
-      >
-        <span class='block xl:block'>Portfólio</span>
-      </h1>
-
-      {{! Project #1 }}
-      {{>subpartials/project 
-        isToLeft=false
-        label='Projekt #1'
-        desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-      }}
-
-        {{! Project #2 }}
-      {{>subpartials/project 
-        isToLeft=true
-        label='Projekt #2'
-        desc='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-      }}
-    </div>
-  </main>
-</div> --}}
-
 <section
   id='portfolio'
   class='mx-auto max-w-7xl mx-12 px-4 lg:mt-16 lg:px-16 pt-12 pb-4'
@@ -46,7 +18,7 @@
         class='md:col-span-2 relative text-right flex flex-col items-end justify-center gap-4'
       >
         <h2
-          class='text-2xl md:text-3xl text-gray-100 md:gap-2 flex flex-col md:flex-row align-right'
+          class='text-2xl md:text-3xl lg:text-4xl text-gray-100 md:gap-2 flex flex-col md:flex-row align-right'
         >
           <a
             href='https://github.com/peterkalanin/taskplanner-client'
@@ -57,12 +29,12 @@
             Task Planner
           </a>
         </h2>
-        <p class='text-base'>
+        <p>
           Projekt sa zameriava na vývoj webovej aplikácie určenej na plánovanie
           každodenných úloh. Vytvorte si, spravujte a zdieľajte si úlohy pre váš
           deň.
         </p>
-        <div class='text-sm flex gap-4 text-gray-500'>
+        <div class='text-base flex gap-4 text-gray-500'>
           <span class='inline'>Angular 9+</span>
           <span class='inline'>Typescript</span>
           <span class='inline'>Tailwind</span>
@@ -90,10 +62,10 @@
         class='md:col-span-2 relative flex flex-col items-start justify-center gap-4'
       >
         <h2
-          class='text-2xl md:text-3xl text-gray-100 md:gap-2 flex flex-col md:flex-row align-right'
+          class='text-2xl md:text-3xl lg:text-4xl text-gray-100 md:gap-2 flex flex-col md:flex-row align-right'
         >
           <a
-            href='https://github.com/peterkalanin/taskplanner-client'
+            href='https://github.com/peterkalanin/Portfolio'
             class='hover:text-blue-300'
             target='_blank'
             rel='noopener noreferrer'
@@ -101,22 +73,19 @@
             Portfólio
           </a>
         </h2>
-        <p class='text-base'>
-          Projekt sa zameriava na vývoj webovej aplikácie určenej na plánovanie
-          každodenných úloh. Vytvorte si, spravujte a zdieľajte si úlohy pre váš
-          deň.
+        <p>
+          Portfólio projekt zobrazujúci moje osobné infomácie, skúsenosti a
+          zamestnancie. Ak vás zaujíma programvá strana tohto portfólia,
+          neváhajte sa pozrieť na Git repozitár.
         </p>
-        <div class='text-sm flex gap-4 text-gray-500'>
+        <div class='text-base flex gap-4 text-gray-500'>
           <span class='inline'>JavaScript</span>
           <span class='inline'>Node.js</span>
           <span class='inline'>Express.js</span>
           <span class='inline'>Tailwind</span>
         </div>
         <div class='flex gap-4'>
-          <a
-            href='https://github.com/peterkalanin/taskplanner-client'
-            target='_blank'
-          >
+          <a href='https://github.com/peterkalanin/Portfolio' target='_blank'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               viewBox='0 0 24 24'
