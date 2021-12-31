@@ -28,5 +28,9 @@
   "work_Proj1_title": "Planovač úloh",
   "work_Proj1_description": "Projekt sa zameriava na vývoj webovej aplikácie určenej na plánovanie každodenných úloh. Vytvorte si, spravujte a  zdieľajte si úlohy pre váš deň.",
   "work_Proj2_title": "Portfólio",
-  "work_Proj2_description": "Portfólio projekt zobrazujúci moje osobné informácie, skúsenosti a zamestnancie. Ak vás zaujíma programvá strana tohto portfólia, neváhajte sa pozrieť na Git repozitár."
+  "work_Proj2_description": "Portfólio projekt zobrazujúci moje osobné informácie, skúsenosti a zamestnancie. Ak vás zaujíma programvá strana tohto portfólia, neváhajte sa pozrieť na Git repozitár.",
+  "cont_Contact": "Kontakt",
+  "cont_ContactInfo": "V prípade, ak vás môj profil zaujal alebo máte na mňa otázky, neváhajte ma kontaktovať.",
+  "cont_SendMessage": "Poslať správu",
+  "cont_FindMeAlso": "Taktiež ma nájdete"
 }
