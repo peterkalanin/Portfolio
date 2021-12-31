@@ -5,5 +5,11 @@
   "nav_Contact": "Contact",
   "nav_Resume": "Resume",
   "hero_MyBio": "I'm software engineer and I specialize in development of web components and information systems. I have more than five years of experience in developing a system used by hundreds of daily users.",
-  "hero_CheckOutMyResume": "Check out my resume"
+  "hero_CheckOutMyResume": "Check out my resume",
+  "about_AboutMe": "About me",
+  "about_FirstSection": "Volám sa Peter Kalanin a zaujímam sa o vývoj webových aplikácií a informačných systémov. Som absolvent FEI STU v Bratislave v odbore aplikovaná informatika s niekoľkoročnou pracovnou skúsenosťou vo vývoji softvéru a webových aplikácií.",
+  "about_SecondSection": "Môj záujem o vývoj webových aplikácií začal už v mladosti tvorbou jednoduchých webových stránok. Profesiónalne som sa tomu začal venovať až v roku 2016 keď som stal pri zrode",
+  "about_ThirdSection": "I have experience with the following technologies:",
+  "about_SecondSectionLink": "nového informačného systému EvuPP",
+  "about_FourthSection": "I also have experience with"
 }

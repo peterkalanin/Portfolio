@@ -5,5 +5,11 @@
   "nav_Contact": "Kontakt",
   "nav_Resume": "Životopis",
   "hero_MyBio": "Som softvérový inžinier a špecializujem sa na vývoj webových častí informačných systémov. Mám za sebou viac ako päťročnú skúsenosť vo vývoji systému používaneho denne stovkami používateľov.",
-  "hero_CheckOutMyResume": "Pozrite si môj životopis"
+  "hero_CheckOutMyResume": "Pozrite si môj životopis",
+  "about_AboutMe": "O mne",
+  "about_FirstSection": "Volám sa Peter Kalanin a zaujímam sa o vývoj webových aplikácií a informačných systémov. Som absolvent FEI STU v Bratislave v odbore aplikovaná informatika s niekoľkoročnou pracovnou skúsenosťou vo vývoji softvéru a webových aplikácií.",
+  "about_SecondSection": "Môj záujem o vývoj webových aplikácií začal už v mladosti tvorbou jednoduchých webových stránok. Profesiónalne som sa tomu začal venovať až v roku 2016 keď som stal pri zrode",
+  "about_ThirdSection": "Mám skúsenosti s nasledujúcimi technológiami:",
+  "about_SecondSectionLink": "nového informačného systému EvuPP",
+  "about_FourthSection": "Taktiež mám skúsenosti s"
 }
