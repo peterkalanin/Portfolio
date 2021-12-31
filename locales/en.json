@@ -32,5 +32,7 @@
   "cont_Contact": "Contact",
   "cont_ContactInfo": "If you are interested in my profile or have any questions, do not hesitate to contact me.",
   "cont_SendMessage": "Send message",
-  "cont_FindMeAlso": "You will also find me"
+  "cont_FindMeAlso": "You will also find me",
+  "foot_Info": "Implemented and designed by Peter Kalanin",
+  "foot_InspiredBy": "Inspired by"
 }

@@ -32,5 +32,7 @@
   "cont_Contact": "Kontakt",
   "cont_ContactInfo": "V prípade, ak vás môj profil zaujal alebo máte na mňa otázky, neváhajte ma kontaktovať.",
   "cont_SendMessage": "Poslať správu",
-  "cont_FindMeAlso": "Taktiež ma nájdete"
+  "cont_FindMeAlso": "Taktiež ma nájdete",
+  "foot_Info": "Implementácia a dizajn - Peter Kalanin",
+  "foot_InspiredBy": "Inšpirované "
 }
