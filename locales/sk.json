@@ -23,5 +23,10 @@
   "exp_Job1_Description4": "Poskytovanie poradenstva v oblasti práce s informačným systémom vrátane pracovných školení",
   "exp_Job1_Description5-1": "Člen",
   "exp_Job1_Description5-2": "expertnej pracovnej skupiny",
-  "exp_Job1_Description5-3": "zriadenej MŠVVaŠ"
+  "exp_Job1_Description5-3": "zriadenej MŠVVaŠ",
+  "work_MyWork": "Moja práca",
+  "work_Proj1_title": "Planovač úloh",
+  "work_Proj1_description": "Projekt sa zameriava na vývoj webovej aplikácie určenej na plánovanie každodenných úloh. Vytvorte si, spravujte a  zdieľajte si úlohy pre váš deň.",
+  "work_Proj2_title": "Portfólio",
+  "work_Proj2_description": "Portfólio projekt zobrazujúci moje osobné informácie, skúsenosti a zamestnancie. Ak vás zaujíma programvá strana tohto portfólia, neváhajte sa pozrieť na Git repozitár."
 }

@@ -23,5 +23,10 @@
   "exp_Job1_Description4": "exp_Job1_Description4",
   "exp_Job1_Description5-1": "exp_Job1_Description5-1",
   "exp_Job1_Description5-2": "exp_Job1_Description5-2",
-  "exp_Job1_Description5-3": "Ministry of Education, Science, Research and Sport of the Slovak Republic"
+  "exp_Job1_Description5-3": "Ministry of Education, Science, Research and Sport of the Slovak Republic",
+  "work_MyWork": "My work",
+  "work_Proj1_title": "Task Planner",
+  "work_Proj1_description": "The project focuses on the development of a web application designed for planning everyday tasks. Create, manage and share tasks for your day.",
+  "work_Proj2_title": "Portfolio",
+  "work_Proj2_description": "Portfolio project showing my personal information, experience and employment. If you are interested in the programming side of this portfolio, do not hesitate to look at the Git repository."
 }
