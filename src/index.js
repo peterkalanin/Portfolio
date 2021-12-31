@@ -6,7 +6,7 @@ const i18n = require('i18n');
 const locale = require('./helpers/locale');
 
 const app = express();
-const APP_PORT = 3000;
+const APP_PORT = process.env.port || 3000;
 
 const publicDirectoryPath = path.join(__dirname, '../public');
 const viewsPath = path.join(__dirname, '../templates/views');
