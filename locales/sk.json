@@ -11,5 +11,17 @@
   "about_SecondSection": "Môj záujem o vývoj webových aplikácií začal už v mladosti tvorbou jednoduchých webových stránok. Profesiónalne som sa tomu začal venovať až v roku 2016 keď som stal pri zrode",
   "about_ThirdSection": "Mám skúsenosti s nasledujúcimi technológiami:",
   "about_SecondSectionLink": "nového informačného systému EvuPP",
-  "about_FourthSection": "Taktiež mám skúsenosti s"
+  "about_FourthSection": "Taktiež mám skúsenosti s",
+  "exp_WorkExperience": "Pracovné skúsenosti",
+  "exp_Job1_Position": "Frontend developer",
+  "exp_Job1_Employer": "Centrum vedecko-technických informácií SR",
+  "exp_Job1_FromTo": "Júl 2016 - Február 2022",
+  "exp_Job1_Description1": "Navrhovanie a vývoj klientskej časti aplikácie v rozhraní",
+  "exp_Job1_Description2-1": "Testovanie a",
+  "exp_Job1_Description2-2": "vývoj softvéru",
+  "exp_Job1_Description3": "Operatívne riešenie chýb a problémov",
+  "exp_Job1_Description4": "Poskytovanie poradenstva v oblasti práce s informačným systémom vrátane pracovných školení",
+  "exp_Job1_Description5-1": "Člen",
+  "exp_Job1_Description5-2": "expertnej pracovnej skupiny",
+  "exp_Job1_Description5-3": "zriadenej MŠVVaŠ"
 }
