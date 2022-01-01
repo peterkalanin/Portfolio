@@ -2,12 +2,11 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon src/index.js -e js,css,hbs",
+    "serve": "nodemon src/app.js -e js,css,hbs",
     "tailwind:css": "postcss public/styles/tailwind.css -o public/styles/style.css",
-    "build": "node src/index.js"
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
