@@ -6,7 +6,7 @@ const i18n = require('i18n');
 const locale = require('./helpers/locale');
 
 const app = express();
-const APP_PORT = process.env.port || 3000;
+const APP_PORT = process.env.PORT || 3000;
 
 const publicDirectoryPath = path.join(__dirname, '../public');
 const viewsPath = path.join(__dirname, '../templates/views');
@@ -72,6 +72,6 @@ app.post('/', (req, res) => {
   res.render('index', { jobs: JOBS, i18n });
 });
 
-const server = app.listen(process.env.port || 3000, () => {
+const server = app.listen(APP_PORT, () => {
   console.log(`Server started on port ${server.address().port}.`);
 });
