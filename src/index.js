@@ -72,6 +72,6 @@ app.post('/', (req, res) => {
   res.render('index', { jobs: JOBS, i18n });
 });
 
-const server = app.listen(APP_PORT, () => {
+const server = app.listen(process.env.port || 3000, () => {
   console.log(`Server started on port ${server.address().port}.`);
 });
