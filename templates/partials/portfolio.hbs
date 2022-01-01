@@ -1,14 +1,11 @@
-<section
-  id='portfolio'
-  class='mx-auto max-w-7xl mx-12 px-4 lg:mt-16 lg:px-16 pt-12 pb-4'
->
+<section id='portfolio' class='px-4 pt-20 mt-28'>
   <h1
     class='text-3xl tracking-tight font-extrabold text-gray-100 sm:text-3xl md:text-3xl heading'
   >
     {{i18n 'work_MyWork'}}
   </h1>
   <div class='md:ml-8 pt-8 space-y-16'>
-    <div class='md:grid grid-cols-5 gap-4'>
+    <div class='md:grid grid-cols-5 gap-4 flex flex-col-reverse'>
       <div class='md:col-span-3 relative overflow-hidden rounded-2xl'>
         <picture>
           <img src='img/TaskPlannerApp.png' alt='' />
@@ -55,7 +52,7 @@
         </div>
       </div>
     </div>
-    <div class='md:grid grid-cols-5 gap-4'>
+    <div class='md:grid grid-cols-5 gap-4 flex flex-col'>
       <div
         class='md:col-span-2 relative flex flex-col items-start justify-center gap-4'
       >

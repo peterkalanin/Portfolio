@@ -11,12 +11,15 @@
   </head>
   <body class="h-full bg-gray-900 text-gray-400 text-base md:text-xl">
     {{>navigation}}
-    {{>hero}}
-    {{>about}}
-    {{>skills}}
-    {{>experience jobs=jobs}}
-    {{>portfolio}}
-    {{>contact}}
+    <div class="mx-auto max-w-7xl mx-12">
+      {{>hero}}
+      {{>about}}
+      {{>skills}}
+      {{>experience jobs=jobs}}
+      {{>portfolio}}
+      {{>contact}}
+    </div>
+    
     {{>footer}}
   </body>
 </html>
