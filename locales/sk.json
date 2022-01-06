@@ -29,6 +29,8 @@
   "work_Proj1_description": "Projekt sa zameriava na vývoj webovej aplikácie určenej na plánovanie každodenných úloh. Vytvorte si, spravujte a  zdieľajte si úlohy pre váš deň.",
   "work_Proj2_title": "Portfólio",
   "work_Proj2_description": "Portfólio projekt zobrazujúci moje osobné informácie, skúsenosti a zamestnancie. Ak vás zaujíma programvá strana tohto portfólia, neváhajte sa pozrieť na Git repozitár.",
+  "work_Proj3_title": "Poznámky",
+  "work_Proj3_description": "Stránka umožňuje písanie si jednoduchých poznámok s cieľom napodobniť funkcionalitu Google Keep. Jedná sa o demo projekt, bez manažmentu prístupov.",
   "cont_Contact": "Kontakt",
   "cont_ContactInfo": "V prípade, ak Vás môj profil zaujal alebo máte na mňa otázky, neváhajte ma kontaktovať.",
   "cont_SendMessage": "Poslať správu",

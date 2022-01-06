@@ -29,6 +29,8 @@
   "work_Proj1_description": "The project focuses on the development of a web application designed for planning everyday tasks. Create, manage and share tasks for your day.",
   "work_Proj2_title": "Portfolio",
   "work_Proj2_description": "Portfolio project showing my personal information, experience and employment. If you are interested in the programming side of this portfolio, do not hesitate to look at the Git repository.",
+  "work_Proj3_title": "Simple notes",
+  "work_Proj3_description": "The site allows you to take simple notes to mimic the functionality of Google Keep. This is a demo project, without acount management.",
   "cont_Contact": "Contact",
   "cont_ContactInfo": "If you are interested in my profile or have any questions, do not hesitate to contact me.",
   "cont_SendMessage": "Send message",
